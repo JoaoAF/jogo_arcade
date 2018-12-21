@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<iso646.h>
 #include<stdlib.h>
-#include <curses.h> 
-/*#include<conio.h>*/
+#include"conio.h"
 
 
 //Variáveis globais
@@ -136,23 +135,3 @@ int main(void){
     }    
   }
 }
-
-
-//Para subistituir o _kbhit
-
-/*
-
-  if ( kbhit() ) {
-    tecla = getch();
-  }
-
-  int main(){
-
-     char tecla;
-     initscr();
-     clear();
-     timeout(0); //a função já garante a execução do bloco com ou sem entrada de teclado;
-     keypad(stdscr, TRUE);
-     noecho();
-  }
-  */
