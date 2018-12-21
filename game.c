@@ -121,7 +121,7 @@ void moverBola(char board[LINHA][COLUNA], int position_ball[RB][CB], int previou
   int previous_column_ball = 5;
 
   int cont = 0;
-  /*while(1){
+  while(1){
     char key;
     if (_kbhit()){
       key =_getch();
@@ -130,7 +130,7 @@ void moverBola(char board[LINHA][COLUNA], int position_ball[RB][CB], int previou
       }
       posicaoArrayBarra(board, position_board);
       moverBarra(board, position_board, key);
-    }*/
+    }
     if(row_ball == 0){
       previous_row_ball = row_ball;
       row_ball += 1;
